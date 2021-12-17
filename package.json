@@ -6,12 +6,6 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "truffle test",
-    "runLocalCrab": "",
-    "compile": "truffle compile",
-    "migrate": "truffle migrate"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darwinia-network/darwinia-truffle-box.git"

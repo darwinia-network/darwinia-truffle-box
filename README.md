@@ -63,7 +63,7 @@ MAINNET_PRIVATEKEY="<Your Crab Private Key>"
 To compile your Darwinia contracts, run the following in your terminal:
 
 ```
-npm run compile
+truffle compile
 ```
 
 This script lets Truffle know to use the `truffle-config.js` configuration file, which tells Truffle where to store your build artifacts.
@@ -73,7 +73,7 @@ This script lets Truffle know to use the `truffle-config.js` configuration file,
 To migrate on Darwinia, run:
 
 ```
-npm run migrate --network=(pangolin | crab)
+truffle migrate --network=(pangolin | crab)
 ```
 
 (remember to choose a network from these options!).
@@ -93,24 +93,24 @@ The code here will allow you to compile, migrate, and test your code against an 
 
  To compile:
  ```
- npm run compile
+ truffle compile
  ```
 
  To migrate:
  ```
- npm run migrate --network=(pangolin | crab)
+ truffle migrate --network=(pangolin | crab)
  ```
 
  To test:
  ```
- npm run test --network=(pangolin | crab)
+ truffle test --network=(pangolin | crab)
 ```
 ### Testing
 
 Currently, this box supports testing via Javascript/TypeScript tests. In order to run the test currently in the boilerplate, use the following command:
 
 ```
-npm run test --network=(pangolin | crab)
+truffle test --network=(pangolin | crab)
 ```
 
 ## Support
