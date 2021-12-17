@@ -25,7 +25,6 @@ The Darwinia Truffle Box has the following requirements:
 - Windows, Linux or MacOS
 
 Helpful, but optional:
-- [docker](https://docs.docker.com/get-docker/), version 19.03.12 or later, only dev at local
 - A [MetaMask](https://metamask.io/) account
 
 ## Installation
