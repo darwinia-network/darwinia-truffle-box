@@ -39,7 +39,7 @@ $ truffle unbox darwinia-network/darwinia-truffle-box
 
 ### Using the env File
 
-You will need at least one mnemonic to use with the network. The `.dotenv` npm package has been installed for you, and you will need to create a `.env` file for storing your mnemonic and any other needed private information.
+You will need at least one private key to use with the network. The `.dotenv` npm package has been installed for you, and you will need to create a `.env` file for storing your private key.
 
 The `.env` file is ignored by git in this project, to help protect your private data. In general, it is good security practice to avoid committing information about your private keys to github. The `truffle-config.js` file expects a `*_PRIVATEKEY` value to exist in `.env` for running commands on each of these networks, as well as a default `DEV_PRIVATEKEY` for the Darwinia network we will run locally.
 
