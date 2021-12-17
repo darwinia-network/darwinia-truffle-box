@@ -1,4 +1,12 @@
 {
+  "ignore": [
+    "README.md"
+  ],
+  "commands": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
   "hooks": {
       "post-unpack": "npm install --loglevel=error, && touch .env"
   }
