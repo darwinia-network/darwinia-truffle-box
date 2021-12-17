@@ -1,0 +1,35 @@
+{
+  "name": "darwinia-truffle-box",
+  "version": "1.0.0",
+  "description": "Boilerplate code to compile, migrate, and test a Truffle project on Darwinia",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "runLocalCrab": "",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darwinia/darwinia-truffle-box.git"
+  },
+  "keywords": [
+    "Darwinia",
+    "EVM",
+    "Truffle"
+  ],
+  "author": "echo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darwinia/darwinia-truffle-box/issues"
+  },
+  "homepage": "https://github.com/darwinia/darwinia-truffle-box#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0"
+  }
+}
