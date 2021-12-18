@@ -83,7 +83,7 @@ truffle migrate --network=(pangolin | crab)
     - RPC Url: `http://pangolin-rpc.darwinia.network`
     - chain id: 43
 
-- `crab`: This is the one of mainnet for Darwinia. You will need to connect your wallet to the Crab mainnet RPC network, located at http://crab-rpc.darwinia.network
+- `crab`: This is the one of mainnet for Darwinia. You will need to connect your wallet to the Crab mainnet RPC network, located at https://crab-rpc.darwinia.network
 
 If you would like to migrate previously migrated contracts on the same network, you can run `truffle migrate --network=(pangolin | crab)` and add the `--reset` flag.
 

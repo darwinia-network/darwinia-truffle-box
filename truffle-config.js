@@ -35,7 +35,7 @@ module.exports = {
     pangolin: {
       network_id: 43,
       provider: function() {
-        return new HDWalletProvider(testnetPrivatekey, 'http://pangolin-rpc.darwinia.network');
+        return new HDWalletProvider(testnetPrivatekey, 'https://pangolin-rpc.darwinia.network');
       }
     },
     // requires a mainnet private key; you can save this in .env or in whatever secure location
@@ -44,7 +44,7 @@ module.exports = {
       network_id: 44,
       chain_id: 44,
       provider: function() {
-        return new HDWalletProvider(mainnetPrivatekey, "http://crab-rpc.darwinia.network");
+        return new HDWalletProvider(mainnetPrivatekey, "https://crab-rpc.darwinia.network");
       }
     },
   },
